@@ -1,6 +1,6 @@
 from math import ceil
 
-lst = list(str(input("Enter a string: ")))
-h = ceil(len(lst) / 2)
-r = lst[h:] + lst[:h]
+var1 = list(str(input("Enter a string: ")))
+h = ceil(len(var1) / 2)
+r = var1[h:] + var1[:h]
 print(''.join(r))
